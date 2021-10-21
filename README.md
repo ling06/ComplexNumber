@@ -1,6 +1,8 @@
 # ComplexNumber
-tests:
 
+Класс, написанный ради интереса для тестового задания, но не отправленный за ненадобностью.
+
+tests:  
 $cn = new ComplexNumber(1, 1);  
 echo (clone $cn)->add(new ComplexNumber(1, 1)), PHP_EOL; // 2+2i  
 echo (clone $cn)->substract(3, 3), PHP_EOL; // -2-2i  
